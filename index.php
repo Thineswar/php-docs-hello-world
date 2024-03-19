@@ -7,13 +7,17 @@
 </head>
 <body>
 
+    <header>
+        <h1>Cloudflare TVE Technical Project</h1>
+    </header>
+
     <?php 
     foreach (getallheaders() as $name => $value) { 
         echo "$name: $value <br>"; 
     } 
     ?> 
     <footer>
-        <p> By Thineswar </p>
+        <p><b> By Thineswar </b></p>
     </footer>
 </body>
 </html>
